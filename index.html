@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Autómata Finito</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Autómata Finito</h1>
+    <canvas id="fsmCanvas" width="800" height="600"></canvas>
+    <div class="options">
+        <input type="text" id="inputString" placeholder="Cadena a validar">
+        <button onclick="validateString()">Validar Cadena</button>
+        <button onclick="resetDiagram()">Resetear Diagrama</button>
+    </div>
+    <div>
+        <h3>Instrucciones:</h3>
+        <ul>
+            <li>Agregar un estado: haga doble clic en el lienzo</li>
+            <li>Agregar una transición: mantenga presionada la tecla Shift y arrastre entre los estados</li>
+            <li>Mover un estado: arrástrelo</li>
+            <li>Eliminar un estado: selecciónelo y presione la tecla Backspace</li>
+            <li>Hacer estado de aceptación: haga clic derecho en un estado</li>
+        </ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

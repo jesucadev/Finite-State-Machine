@@ -1,0 +1,29 @@
+html {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    box-sizing: border-box;
+    margin-top: 1rem;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+canvas {
+    border: 1px solid #000;
+    background-color: #fff;
+}
+
+.options {
+    margin-top: 10px;
+}
+
+.options input, .options button {
+    margin-right: 5px;
+}
